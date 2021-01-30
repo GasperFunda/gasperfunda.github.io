@@ -12,23 +12,35 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="icon" href="./gf-logo-blue.png">
   <script src="script.js"></script>
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <img src="./img/logo.svg" alt="Insert logo here" />
-            <h4 class="logo">Gašper Funda</h4>
+            <a href="#"><img id="logo" src="./gf-logo-blue.png" alt="Insert logo here" /></a>
+            
         </div>
         <nav>
             <ul class="nav-links">
-                <li><button class="header-buttons" onmouseover="addClass(this,'animate__animated animate__rubberBand');" onmouseleave="removeClass(this,'animate__animated animate__rubberBand')"><a class="nav-link" href="#">Home</a></button></li>
-                <li><button class="header-buttons" onmouseover="addClass(this,'animate__animated animate__rubberBand');" onmouseleave="removeClass(this,'animate__animated animate__rubberBand')"><a class="nav-link" href="#">About me</a></button></li>
-                <li><button class="header-buttons" onmouseover="addClass(this,'animate__animated animate__rubberBand');" onmouseleave="removeClass(this,'animate__animated animate__rubberBand')"><a class="nav-link" href="#">Contact</a></button></li>
+                
+                <li><button class="header-buttons" >About me</button></li>
+                <li><button class="header-buttons" >Contact</button></li>
             </ul>
         </nav>
         
     </header>
+    <main>
+        <div class="opis">
+            <h1 class="name animate__animated animate__slideInDown"">I am Gašper Funda</h1>
+            <p class="description animate__animated animate__slideInLeft">
+                 A computer science and information techonologies student, studying in Maribor. Currently looking for new opportunities to kickstart my career in programming.
+    
+            </p>
+        </div>
+        <img class="profilepic animate__animated animate__slideInRight" src="./profilna1.jpg" alt="Profilna"/>
+
+    </main>
 </body>
 </html>
 
