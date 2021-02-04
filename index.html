@@ -18,14 +18,14 @@
 <body>
     <header>
         <div class="logo-container">
-            <a href="#"><img id="logo" src="./gf-logo-blue.png" alt="Insert logo here" /></a>
+            <a href="./index.html" class="home-button"><img id="logo" src="./gf-logo-blue.png" alt="Insert logo here" /></a>
             
         </div>
         <nav>
             <ul class="nav-links">
                 
-                <li><button class="header-buttons" >About me</button></li>
-                <li><button class="header-buttons" >Contact</button></li>
+                <li><button class="header-buttons" onclick="window.location.href='./about.html'">About me</button></li>
+                <li><button class="header-buttons" onclick="window.location.href='./contact.html'"">Contact</button></li>
             </ul>
         </nav>
         
@@ -37,6 +37,12 @@
                  A computer science and information techonologies student, studying in Maribor. Currently looking for new opportunities to kickstart my career in programming.
     
             </p>
+            
+            <div class="buttons">
+                <button class="header-buttons" onclick="window.location.href='./about.html'">Learn more</button>
+                <button class="header-buttons" onclick="window.location.href='./contact.html'">Contact me</button>
+            </div>
+            
         </div>
         <img class="profilepic animate__animated animate__slideInRight" src="./profilna1.jpg" alt="Profilna"/>
 

@@ -2,7 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: #123C69;
+    color: var(--textcolor);
+}
+
+:root{
+    --maincolor: rgb(237,199,176);
+    --textcolor:  #123C69;
 }
 
 body {
@@ -17,7 +22,7 @@ header{
     width: 90%;
     
     margin: auto;
-
+    
     align-items: center;
     height: 10vh;
 }
@@ -49,7 +54,7 @@ nav{
 
 .header-buttons{
     background: none;
-    border: 3px solid  #123C69;
+    border: 3px solid  var(--textcolor);
     border-radius: 5%;
     padding: 10px 30px;
     transition: .2s transform ease-in-out;
@@ -63,7 +68,7 @@ nav{
 }
 
 .header-buttons::after{
-    background-color: #123C69;
+    background-color: var(--textcolor);
     border-radius: 5%;
     content: '';
     display: block;
@@ -77,7 +82,7 @@ nav{
     transition: .2s transform ease-out;
     will-change: transform;
     z-index: -1;
-    color: rgb(237,199,176);
+    color: var(--maincolor);
     
 }
 .header-buttons:hover::after{
@@ -86,14 +91,14 @@ transform: translate(0,0);
 }
 .header-buttons:hover{
     border: 2px solid transparent;
-    color: rgb(237,199,176);
+    color: var(--maincolor);
     
     transform: scale(1.05);
     will-change: transform;
     
 }
 .nav-link:hover{
-    color: rgb(237,199,176);
+    color: var(--maincolor);
 }
 
 main{
@@ -126,6 +131,63 @@ main{
     border-radius: 100%;
     border: 4px solid white;
     
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.buttons button {
+    margin: 0vh 3vh;
+}
+
+.about-main{
+    flex-direction: column;
+    margin: 3vh 10vh;
+}
+
+.section-title{
+    font-size: 56px;
+    
+}
+.education{
+    display: flex;
+    flex-direction: column;
+
+}
+.srednja {
+    display: flex;
+    flex-direction: row;
+
+}
+
+p{
+    font-size: 26px;
+}
+
+.logos{
+    width: 150px;
+    margin: 0px 15px;
+}
+.desc{
+    display:flex;
+    flex-direction: column;
+    flex:3;
+
+}
+
+.logoti{
+display:flex;
+
+flex:1;
+}
+
+.faks{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: row;
 }
 
 
