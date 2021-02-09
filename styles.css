@@ -114,7 +114,7 @@ main{
     flex: 1.5;
 }
 .name{
-    font-size: 56px;
+    font-size: 5vh;
 }
 .name, .description {
     display: flex;
@@ -164,7 +164,13 @@ main{
 }
 
 p{
-    font-size: 26px;
+    font-size: 3vh;
+    
+}
+
+span{
+    line-height: 5vh;
+    padding: 4px;
 }
 
 .logos{
@@ -189,6 +195,165 @@ flex:1;
     display:flex;
     flex-direction: row;
 }
+
+.EDIT{
+    display:flex;
+    flex-direction: row;
+}
+
+.izkusnje-desc{
+    margin:5px;
+    flex: 1;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-links{
+        
+        width: 100%;
+        
+    }
+    .header-buttons{
+        font-size: 3vh;
+
+    }
+    header{
+        width: 100%;
+        align-items: stretch;
+        margin: 0;
+    }
+    nav{
+        width: 100%;
+    }
+    .header-buttons{
+        width: 100%;
+        border-radius: 0%;
+        height: 100%;
+        
+    }
+    li{
+        margin: 0px 1vh;
+
+    }
+
+    .profilepic{
+        height: auto;
+        width: 45vw;
+        margin-top: 5px;
+        align-self: center;
+        
+    }
+    main{
+        margin: 0%;
+        margin-top: 45px;
+        flex-direction: column;
+        
+    }
+    .about-main{
+        margin: 2px 2px;
+    }
+    .logoti{
+        display: none;
+    }
+    .EDIT{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    li{
+        margin: 0%;
+
+    }
+    .header-buttons{
+        padding: 2vh;
+
+    }
+}
+@media only screen and (max-width: 800px){
+    .logoti{
+        display: none;
+    }
+    .about-main{
+        margin: 2px 2px;
+    }
+}
+
+h1{
+    margin: 0%;
+    
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--textcolor);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
 
 
 

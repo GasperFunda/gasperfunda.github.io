@@ -12,11 +12,13 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   <link rel="icon" href="./gf-logo-blue.png">
+  <script src="script.js"></script>
+  <!-- Latest compiled and minified CSS -->
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <a href="./index.html" class="home-button"><img id="logo" src="./gf-logo-blue.png" alt="Insert logo here" /></a>
+            <a href="./index.html" class="home-button"><img id="logo" src="./assets/gf-logo-blue.png" alt="Insert logo here" /></a>
             
         </div>
         <nav>
@@ -29,20 +31,19 @@
 
 
     </header>
-    <main class="about-main">
+    <div class="about-main">
 
         <div class="education">
         <h1 class="section-title animate__animated animate__slideInDown">Izobrazba</h1>
             <div class="srednja">
                 <div class="desc animate__animated animate__slideInLeft">
                     <h1>Srednja šola</h1>
-                    <p>Obiskoval sem srednjo šolo za kemijo, elektrotehniko in računalništvo v Celju. Končal sem program tehnika računalništva z odličnim uspehom v zadnjem letniku. Maturo
-                        sem pa tudi zaključil z odličnim uspehom.
+                    <p>Obiskoval sem srednjo šolo za kemijo, elektrotehniko in računalništvo v Celju. Končal sem program tehnika računalništva z odličnim uspehom v zadnjem letniku in na maturitetnih izpitih.
                     </p>
                 </div>
                 <div class="logoti animate__animated animate__slideInRight">
-                    <img class="logos" src="scc-logotip.png"/>
-                    <img class="logos" src="scc-ker-logo.png"/>
+                    <img class="logos" src="./assets/scc-logotip.png"/>
+                    <img class="logos" src="./assets/scc-ker-logo.png"/>
                 </div>
             </div>
             <div class="faks">
@@ -52,17 +53,99 @@
                     <h1>Fakulteta</h1>
                     <p> Trenutno sem končal prvi semester drugega letnika programa Računalništvo in Informacijske Tehnologije na FERI.
                     </p>
-                    <p>Povprečna ocena predmetov: 8.62
+                    <p>Povprečna ocena predmetov: 8.71
                     </p>
                 </div>
                 <div class="logoti animate__animated animate__slideInRight">
-                    <img class="logos" src="feri-logo.png"/>
+                    <img class="logos" src="./assets/feri-logo.png"/>
                     
 
                 </div>
             </div>
 
+
         </div>
+        <div class="izkusnje">
+        <h1 class="section-title animate__animated animate__slideInLeft">Izkušnje</h1>
+            <div class="EDIT">
+                <div class="izkusnje-desc animate__animated animate__slideInLeft">
+                    <h1>Comtrade EDIT 2020</h1>
+                    <p>Zmaga za najboljši design v projektu SmartDock GUI time-slots.</p>
+                </div>
+                <div class="izkusnje-desc animate__animated animate__slideInUp">
+                    <h1>Praktično usposabljanje v srednji šoli</h1>
+                    <p>Upravljanje sistema v Linuxu in uporaba Dockerja v podjetju Alcad d.o.o.</p>
+                </div>
+                <div class="izkusnje-desc animate__animated animate__slideInRight">
+                    <h1>Maturitetna naloga</h1>
+                    <p>Namizna aplikacija za real-time izmenjavo sporočil in slik narejena v WPF v kombinaciji s C#, povezana s podatkovno bazo SQL in FTP strežnikom.</p>
+                </div>
+            </div>
+        </div>
+        <div class="znanja">
+            <h1 class="section-title animate__animated animate__slideInLeft">Moja znanja</h1>
+            <div class="znanje animate__animated animate__slideInLeft">
+                <h1>1. C#, C++ in C</h1>
+                <p>Programskega jezika C# smo se začeli učiti v srednji šoli, izpopolnili smo ga pa na fakulteti. Učili smo se tudi C++ in C. V kombinaciji s C# znam tudi WPF in WinForms.</p>
+            </div>
+            <div class="znanje animate__animated animate__slideInLeft">
+                <h1>2. Spletne tehnologije</h1>
+                <p>Sem spada znanje o HTML, CSS, JavaScript in PHP. Znam tudi WordPress in upravljanje s spletno stranjo v tem orodju. Poleg JavaScripta sem se tudi učil Node.js</p>
+            </div>
+            <div class="znanje animate__animated animate__slideInLeft">
+                <h1>3. Izdelava mobilnih aplikacij</h1>
+                <p>Na temo izdelave mobilnih aplikacij sem se udeležil nekaj spletnih tečajov. Tam sem se naučil osnove React Native.</p>
+            </div>
+            <div class="znanje animate__animated animate__slideInLeft">
+                <h1>4. Podatkovne baze</h1>
+                <p>V srednji šoli smo se naučili MS SQL Serverja, na fakulteti pa MySQL. Vse to skupaj mi je dalo odlično podlago relacijskih podatkovnih baz. V okviru spletnih tečajev sem se pa naučil tudi MongoDB.</p>
+            </div>
+            <div class="znanje animate__animated animate__slideInLeft">
+                <h1>5. Splošno računalniško znanje</h1>
+                <p>Na splošno imam veliko strasti do vsega povezanega z računalništvom in se z veseljem naučim česarkoli novega o tej tematiki. Imam tudi znanja uporabe Microsoft Office orodij in vzpostavitev raznih strežnikov (FTP, SQL)</p>
+            </div>
+        </div>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="./assets/edit-certificate.png" style="width:100%;">
+              
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="./assets/react-native-certificate.jpg" style="width:100%;">
+              
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="./assets/node-certificate.jpg" style="width:100%;">
+              
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="./assets/react-native-advanced-certificate.jpg" style="width:100%;">
+                
+              </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+          <script>showSlides(1)</script>
     </main>
 </body>
 </html>
