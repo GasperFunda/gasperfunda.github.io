@@ -176,6 +176,7 @@ span{
 .logos{
     width: 150px;
     margin: 0px 15px;
+    height: 150px;
 }
 .desc{
     display:flex;
@@ -186,7 +187,7 @@ span{
 
 .logoti{
 display:flex;
-
+align-items: center;
 flex:1;
 }
 
