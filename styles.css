@@ -206,6 +206,29 @@ flex:1;
     flex: 1;
 }
 
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.firma-logo{
+    flex: 1;
+    width: 5vh;
+}
+.contact-main{
+    display:flex;
+    flex-direction: column;
+}
+.social-link{
+    flex: 10;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 4vh;
+}
+
+
 @media only screen and (max-width: 600px){
     .nav-links{
         
@@ -243,7 +266,7 @@ flex:1;
         
     }
     main{
-        margin: 0%;
+        margin: 2%;
         margin-top: 45px;
         flex-direction: column;
         
@@ -266,7 +289,12 @@ flex:1;
     }
     .header-buttons{
         padding: 2vh;
+        height: 100%;
+        width: 100%;
 
+    }
+    main{
+        margin: 0%;
     }
 }
 @media only screen and (max-width: 800px){
@@ -275,6 +303,11 @@ flex:1;
     }
     .about-main{
         margin: 2px 2px;
+    }
+    .header-buttons{
+        padding: 2vh;
+        height: 100%;
+        width: 100%;
     }
 }
 
